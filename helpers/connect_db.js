@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 mongoose.set('strictQuery', false);
 mongoose.connect(
-    `mongodb://ginhinio:Ginhinio12@ac-7mei7g5-shard-00-00.vnicope.mongodb.net:27017,ac-7mei7g5-shard-00-01.vnicope.mongodb.net:27017,ac-7mei7g5-shard-00-02.vnicope.mongodb.net:27017/?ssl=true&replicaSet=atlas-4e049v-shard-0&authSource=admin&retryWrites=true&w=majority`, 
+    `[url]`, 
     {
       useNewUrlParser: true,
       useUnifiedTopology: true
